@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LinFileCopy — GTK 3 app for copying and syncing folders between local </title>
+<meta name="description" content="A native GTK 3 app for copying and syncing folders between local disks, USB sticks, external drives and local storage arrays. You design a job in a clear form, preview exactly what will change, and never have to type an rsync command.">
+<link rel="canonical" href="https://mensuramedia.github.io/linfilecopy/">
+<meta name="theme-color" content="#0E1013">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MensuraMedia">
+<meta property="og:title" content="LinFileCopy — GTK 3 app for copying and syncing folders between local ">
+<meta property="og:description" content="A native GTK 3 app for copying and syncing folders between local disks, USB sticks, external drives and local storage arrays. You design a job in a clear form, preview exactly what will change, and never have to type an rsync command.">
+<meta property="og:url" content="https://mensuramedia.github.io/linfilecopy/">
+<meta property="og:image" content="https://mensuramedia.github.io/assets/img/linfilecopy/designer.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "LinFileCopy", "description": "A native GTK 3 app for copying and syncing folders between local disks, USB sticks, external drives and local storage arrays. You design a job in a clear form, preview exactly what will change, and never have to type an rsync command.", "url": "https://mensuramedia.github.io/linfilecopy/", "sameAs": "https://github.com/MensuraMedia/linfilecopy", "operatingSystem": "Linux", "applicationCategory": "UtilitiesApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Organization", "name": "MensuraMedia", "url": "https://github.com/MensuraMedia"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ruler" aria-hidden="true"></div>
+<header class="wrap site-header">
+<a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="4"></rect><path d="M7 20V12M12 20V8M17 20v-6M22 20V10"></path></svg><span>MensuraMedia</span></a>
+<nav class="nav" aria-label="Main"><a href="/#projects">Projects</a><a href="https://mensuramedia.com/">mensuramedia.com</a><a class="nav-cta" href="https://github.com/MensuraMedia">GitHub</a></nav>
+</header>
+<main id="main">
+
+<div class="wrap"><a class="crumb" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>All MensuraMedia projects</a></div>
+<section class="wrap hero" aria-labelledby="title">
+<ul class="chips"><li><span class="chip">rsync powered</span></li><li><span class="chip">Local storage only</span></li><li><span class="chip">Debian · Fedora · Arch</span></li><li><span class="chip chip--stable">Active</span></li></ul>
+<p class="eyebrow">LinFileCopy</p>
+<h1 id="title" class="display">Copy or sync local folders with a live preview.</h1>
+<p class="lede">A native GTK 3 app for copying and syncing folders between local disks, USB sticks, external drives and local storage arrays. You design a job in a clear form, preview exactly what will change, and never have to type an rsync command.</p>
+<div class="actions"><a class="btn btn--primary" href="#install">Install</a><a class="btn btn--ghost" href="https://github.com/MensuraMedia/linfilecopy">View on GitHub</a></div>
+</section>
+
+<div class="wrap section"><figure class="shot"><img src="/assets/img/linfilecopy/designer.png" alt="Job Designer" width="1190" height="836" fetchpriority="high"><figcaption>Design a copy job and see the exact rsync command.</figcaption></figure></div>
+<section id="features" class="wrap section" aria-labelledby="features-title">
+<p class="eyebrow">What it does</p><h2 id="features-title" class="section-title">Features</h2>
+<ul class="features"><li><span class="num">01</span><h3>Copy, mirror, two-way</h3><p>Mirror always confirms deletions with the exact list; two-way sync is native with a state file and conflict policies.</p></li><li><span class="num">02</span><h3>Live progress</h3><p>Bar, speed, time left, files, current file and a speed graph; pause stops rsync&#x27;s whole process group.</p></li><li><span class="num">03</span><h3>Preview first</h3><p>A dry run lists every new, updated and deleted file before anything changes, with a filterable list.</p></li><li><span class="num">04</span><h3>Encrypted drives</h3><p>LUKS drives unlock and lock through UDisks2, with an optional keyring to remember passphrases.</p></li><li><span class="num">05</span><h3>Scheduling</h3><p>Systemd user timers or cron, including running a job when a drive is connected.</p></li><li><span class="num">06</span><h3>Exact command shown</h3><p>The exact rsync command is always shown and can be copied; a headless command runs saved jobs.</p></li></ul>
+</section>
+<section class="wrap section" aria-labelledby="tour"><h2 id="tour" class="section-title">A closer look</h2><div class="gallery"><figure class="shot"><img src="/assets/img/linfilecopy/dashboard.png" alt="Dashboard" width="1190" height="836" loading="lazy" decoding="async"><figcaption>Every job with its source, destination and schedule.</figcaption></figure><figure class="shot"><img src="/assets/img/linfilecopy/transfers.png" alt="Active Transfers" width="1190" height="836" loading="lazy" decoding="async"><figcaption>Live progress with pause and cancel.</figcaption></figure><figure class="shot"><img src="/assets/img/linfilecopy/history.png" alt="History &amp; Logs" width="1190" height="836" loading="lazy" decoding="async"><figcaption>Every run with statistics, log and one-click re-run.</figcaption></figure></div></section>
+<section id="install" class="band" aria-labelledby="install-title"><div class="wrap band-inner split">
+<div class="stack-col"><h2 id="install-title" class="section-title">Install</h2><p class="muted" style="margin:0">One line from GitHub downloads the release, verifies it against SHA256SUMS, then installs.</p><h3 style="font-size:18px">Requirements</h3><ul class="list"><li>Linux with GTK 3.24</li><li>Python 3.10+ with PyGObject</li><li>rsync 3.1+</li><li>UDisks2, ionice, systemd or cron (recommended)</li></ul></div>
+<div class="stack-col"><div class="term"><div class="term-head"><span>One command (Debian family)</span><button type="button" class="copy" data-copy="cmd0" hidden>Copy</button></div><pre id="cmd0"><code>curl -fsSL https://raw.githubusercontent.com/MensuraMedia/linfilecopy/main/get.sh | sh</code></pre></div><div class="term"><div class="term-head"><span>Any distro, user only</span><button type="button" class="copy" data-copy="cmd1" hidden>Copy</button></div><pre id="cmd1"><code>curl -fsSL https://raw.githubusercontent.com/MensuraMedia/linfilecopy/main/get.sh | sh -s -- --user</code></pre></div><ul class="list"><li>Remove a --user install with get.sh --uninstall; for the package: sudo apt remove linfilecopy</li><li>From a clone, ./install.sh installs the ready-made Debian package; --user installs to ~/.local</li><li>Run straight from the checkout with python3 -m linfilecopy</li></ul><p class="subtle" style="margin:0;font-size:14px">Full and current instructions: <a href="https://github.com/MensuraMedia/linfilecopy#readme">the README on GitHub</a>.</p></div>
+</div></section>
+<section class="wrap section" aria-labelledby="facts-title"><h2 id="facts-title" class="section-title">At a glance</h2><div class="facts"><table><tbody><tr><th scope="row">Scope</th><td>local storage only; no cloud or network code</td></tr><tr><th scope="row">Engine</th><td>rsync 3.1+</td></tr><tr><th scope="row">Platform</th><td>Linux, GTK 3.24</td></tr><tr><th scope="row">Licence</th><td>GPL-3.0-or-later</td></tr></tbody></table></div></section>
+
+<section class="wrap section" aria-labelledby="docs-title"><h2 id="docs-title" class="section-title">Documentation</h2><ul class="links"><li><a href="https://github.com/MensuraMedia/linfilecopy#readme">README</a></li><li><a href="https://github.com/MensuraMedia/linfilecopy/blob/main/docs/CONCEPT.md">Technical concept</a></li><li><a href="https://github.com/MensuraMedia/linfilecopy/blob/main/docs/ARCHITECTURE.md">Architecture</a></li><li><a href="https://github.com/MensuraMedia/linfilecopy/blob/main/docs/DEVELOPER.md">Developer guide</a></li><li><a href="https://github.com/MensuraMedia/linfilecopy/blob/main/releases/README.md">Releases</a></li></ul></section>
+
+
+</main>
+<aside class="evolving" aria-label="About these projects"><p class="wrap">MensuraMedia apps are subject to change without notice and will evolve over time. Features, screenshots and install steps shown here describe each project as it was when this page was last built; the project&#x27;s README on GitHub is the authoritative, current reference.</p></aside>
+<footer class="site-footer"><div class="wrap">
+<span>© MensuraMedia · <span lang="ja">メンスラ・メディア</span> · Page built 2026-10-20</span>
+<span class="mono">mensuramedia.github.io/linfilecopy/</span>
+</div></footer>
+</body>
+</html>

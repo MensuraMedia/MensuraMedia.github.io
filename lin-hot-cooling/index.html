@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lin Hot Cooling — Planned modular thermal manager for Debian-based Lin</title>
+<meta name="description" content="A modular thermal management design for Debian-based Linux, currently at the design phase: the technical concept and milestone plan are written and application code starts with milestone M0. The features below describe the v1.0 target.">
+<link rel="canonical" href="https://mensuramedia.github.io/lin-hot-cooling/">
+<meta name="theme-color" content="#0E1013">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MensuraMedia">
+<meta property="og:title" content="Lin Hot Cooling — Planned modular thermal manager for Debian-based Lin">
+<meta property="og:description" content="A modular thermal management design for Debian-based Linux, currently at the design phase: the technical concept and milestone plan are written and application code starts with milestone M0. The features below describe the v1.0 target.">
+<meta property="og:url" content="https://mensuramedia.github.io/lin-hot-cooling/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Lin Hot Cooling", "description": "A modular thermal management design for Debian-based Linux, currently at the design phase: the technical concept and milestone plan are written and application code starts with milestone M0. The features below describe the v1.0 target.", "url": "https://mensuramedia.github.io/lin-hot-cooling/", "sameAs": "https://github.com/MensuraMedia/lin-hot-cooling", "operatingSystem": "Linux", "applicationCategory": "UtilitiesApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Organization", "name": "MensuraMedia", "url": "https://github.com/MensuraMedia"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ruler" aria-hidden="true"></div>
+<header class="wrap site-header">
+<a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="4"></rect><path d="M7 20V12M12 20V8M17 20v-6M22 20V10"></path></svg><span>MensuraMedia</span></a>
+<nav class="nav" aria-label="Main"><a href="/#projects">Projects</a><a href="https://mensuramedia.com/">mensuramedia.com</a><a class="nav-cta" href="https://github.com/MensuraMedia">GitHub</a></nav>
+</header>
+<main id="main">
+
+<div class="wrap"><a class="crumb" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>All MensuraMedia projects</a></div>
+<section class="wrap hero" aria-labelledby="title">
+<ul class="chips"><li><span class="chip">Idle/Optimal/Intense</span></li><li><span class="chip">Fans · temps · power</span></li><li><span class="chip chip--design">Design phase</span></li></ul>
+<p class="eyebrow">Lin Hot Cooling</p>
+<h1 id="title" class="display">Cool your Linux machine to match the workload.</h1>
+<p class="lede">A modular thermal management design for Debian-based Linux, currently at the design phase: the technical concept and milestone plan are written and application code starts with milestone M0. The features below describe the v1.0 target.</p>
+<div class="actions"><a class="btn btn--primary" href="https://github.com/MensuraMedia/lin-hot-cooling">Follow on GitHub</a></div>
+</section>
+<div class="wrap"><div class="callout" role="note"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"></path><path d="M10.3 3.9L2 18a2 2 0 0 0 1.7 3h16.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><p style="margin:0">Design phase: no application code yet; the features described are the target of v1.0.</p></div></div>
+
+<section id="features" class="wrap section" aria-labelledby="features-title">
+<p class="eyebrow">What it does</p><h2 id="features-title" class="section-title">Features</h2>
+<ul class="features"><li><span class="num">01</span><h3>Hardware discovery</h3><p>Find every sensor, fan, profile and power control on the machine, what can be changed, and which service owns it.</p></li><li><span class="num">02</span><h3>Three categories</h3><p>One-tap Idle, Optimal and Intense cooling, each mapped to what the hardware safely supports.</p></li><li><span class="num">03</span><h3>Workload templates</h3><p>A catalog from High-Intensity Gaming to Quiet Office, plus your own clones edited in a form or as YAML.</p></li><li><span class="num">04</span><h3>Thermal Agent</h3><p>A background service that monitors heat, predicts time to limit and ranks cooling templates; suggest mode by default.</p></li><li><span class="num">05</span><h3>Automation</h3><p>Rules for AC/battery, game start and stop, process types, temperature thresholds, lid state and schedules.</p></li><li><span class="num">06</span><h3>Safety first</h3><p>Firmware limits are never exceeded, raw EC registers are never written, and a watchdog hands control back on failure.</p></li></ul>
+</section>
+
+<section id="install" class="band" aria-labelledby="install-title"><div class="wrap band-inner stack-col">
+<h2 id="install-title" class="section-title">Not available yet</h2><p class="muted" style="margin:0">There is nothing to install yet.</p>
+<div class="actions"><a class="btn btn--ghost" href="https://github.com/MensuraMedia/lin-hot-cooling">Follow progress on GitHub</a></div></div></section>
+<section class="wrap section" aria-labelledby="facts-title"><h2 id="facts-title" class="section-title">At a glance</h2><div class="facts"><table><tbody><tr><th scope="row">Status</th><td>design phase; code starts at milestone M0</td></tr><tr><th scope="row">Platforms</th><td>Debian 12+, Ubuntu 24.04+, Linux Mint 22+ (X11 first, Wayland supported)</td></tr><tr><th scope="row">Stack</th><td>Python 3.12 · GTK 3 · Cairo · D-Bus · polkit · systemd</td></tr><tr><th scope="row">Target</th><td>v1.0 features as described in the README</td></tr></tbody></table></div></section>
+
+<section class="wrap section" aria-labelledby="docs-title"><h2 id="docs-title" class="section-title">Documentation</h2><ul class="links"><li><a href="https://github.com/MensuraMedia/lin-hot-cooling#readme">README</a></li><li><a href="https://github.com/MensuraMedia/lin-hot-cooling/blob/main/TECHNICAL-CONCEPT.md">Technical concept</a></li><li><a href="https://github.com/MensuraMedia/lin-hot-cooling/blob/main/docs/milestones.md">Milestones</a></li><li><a href="https://github.com/MensuraMedia/lin-hot-cooling/blob/main/docs/ui-layout-spec.md">UI layout spec</a></li><li><a href="https://github.com/MensuraMedia/lin-hot-cooling/blob/main/docs/thermal-agent-spec.md">Thermal agent spec</a></li></ul></section>
+
+
+</main>
+<aside class="evolving" aria-label="About these projects"><p class="wrap">MensuraMedia apps are subject to change without notice and will evolve over time. Features, screenshots and install steps shown here describe each project as it was when this page was last built; the project&#x27;s README on GitHub is the authoritative, current reference.</p></aside>
+<footer class="site-footer"><div class="wrap">
+<span>© MensuraMedia · <span lang="ja">メンスラ・メディア</span> · Page built 2026-10-20</span>
+<span class="mono">mensuramedia.github.io/lin-hot-cooling/</span>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mensuramedia.github.io/sitemap.xml

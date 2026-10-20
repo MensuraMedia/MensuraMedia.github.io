@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>linfilesearch — GTK 3 file search across all mounted filesystems, stre</title>
+<meta name="description" content="A native Linux desktop file-search utility built with GTK 3 and Python. It searches all mounted filesystems without an index, streaming results live with pause and stop control.">
+<link rel="canonical" href="https://mensuramedia.github.io/linfilesearch/">
+<meta name="theme-color" content="#0E1013">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MensuraMedia">
+<meta property="og:title" content="linfilesearch — GTK 3 file search across all mounted filesystems, stre">
+<meta property="og:description" content="A native Linux desktop file-search utility built with GTK 3 and Python. It searches all mounted filesystems without an index, streaming results live with pause and stop control.">
+<meta property="og:url" content="https://mensuramedia.github.io/linfilesearch/">
+<meta property="og:image" content="https://mensuramedia.github.io/assets/img/linfilesearch/app-live-r008.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "linfilesearch", "description": "A native Linux desktop file-search utility built with GTK 3 and Python. It searches all mounted filesystems without an index, streaming results live with pause and stop control.", "url": "https://mensuramedia.github.io/linfilesearch/", "sameAs": "https://github.com/MensuraMedia/linfilesearch", "operatingSystem": "Linux", "applicationCategory": "UtilitiesApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Organization", "name": "MensuraMedia", "url": "https://github.com/MensuraMedia"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ruler" aria-hidden="true"></div>
+<header class="wrap site-header">
+<a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="4"></rect><path d="M7 20V12M12 20V8M17 20v-6M22 20V10"></path></svg><span>MensuraMedia</span></a>
+<nav class="nav" aria-label="Main"><a href="/#projects">Projects</a><a href="https://mensuramedia.com/">mensuramedia.com</a><a class="nav-cta" href="https://github.com/MensuraMedia">GitHub</a></nav>
+</header>
+<main id="main">
+
+<div class="wrap"><a class="crumb" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>All MensuraMedia projects</a></div>
+<section class="wrap hero" aria-labelledby="title">
+<ul class="chips"><li><span class="chip">No index · live</span></li><li><span class="chip">All mounted disks</span></li><li><span class="chip">Mint 22.3 verified</span></li><li><span class="chip chip--stable">Active</span></li></ul>
+<p class="eyebrow">linfilesearch</p>
+<h1 id="title" class="display">Search every mounted filesystem live, with no index.</h1>
+<p class="lede">A native Linux desktop file-search utility built with GTK 3 and Python. It searches all mounted filesystems without an index, streaming results live with pause and stop control.</p>
+<div class="actions"><a class="btn btn--primary" href="#install">Install</a><a class="btn btn--ghost" href="https://github.com/MensuraMedia/linfilesearch">View on GitHub</a></div>
+</section>
+<div class="wrap"><div class="callout" role="note"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"></path><path d="M10.3 3.9L2 18a2 2 0 0 0 1.7 3h16.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><p style="margin:0">On Wayland the tray icon depends on the desktop&#x27;s AppIndicator support; the app itself runs.</p></div></div>
+<div class="wrap section"><figure class="shot"><img src="/assets/img/linfilesearch/app-live-r008.png" alt="linfilesearch screenshot" width="1200" height="832" fetchpriority="high"><figcaption>The search window with streaming results.</figcaption></figure></div>
+<section id="features" class="wrap section" aria-labelledby="features-title">
+<p class="eyebrow">What it does</p><h2 id="features-title" class="section-title">Features</h2>
+<ul class="features"><li><span class="num">01</span><h3>Three search modes</h3><p>Substring, wildcard with find -name semantics, and regular expressions, plus a case-sensitivity toggle.</p></li><li><span class="num">02</span><h3>Every filesystem</h3><p>Searches the system root, home partition, data disks and USB drives; pseudo-filesystems are excluded automatically.</p></li><li><span class="num">03</span><h3>Streaming results</h3><p>Name, path, size, type, modified and mountpoint in a sortable table with drag-reorderable columns.</p></li><li><span class="num">04</span><h3>Preview pane</h3><p>Collapsible metadata and text snippet, with open, show-in-folder, copy path and trash actions.</p></li><li><span class="num">05</span><h3>Search history</h3><p>Every run recorded; single-click re-runs a former search with criteria prepopulated, and entries can be bookmarked.</p></li><li><span class="num">06</span><h3>Tray icon</h3><p>Closing the window hides the app to the tray; seven dark themes are inherited from the starter framework.</p></li></ul>
+</section>
+
+<section id="install" class="band" aria-labelledby="install-title"><div class="wrap band-inner split">
+<div class="stack-col"><h2 id="install-title" class="section-title">Install</h2><p class="muted" style="margin:0">Run directly with the system Python, or do a user-level install with menu entry and tray icon.</p><h3 style="font-size:18px">Requirements</h3><ul class="list"><li>Python 3.8+ with PyGObject</li><li>GTK 3.24+</li><li>Pillow</li><li>gir1.2-ayatanaappindicator3-0.1 (optional, tray)</li></ul></div>
+<div class="stack-col"><div class="term"><div class="term-head"><span>Run</span><button type="button" class="copy" data-copy="cmd0" hidden>Copy</button></div><pre id="cmd0"><code>git clone https://github.com/MensuraMedia/linfilesearch.git
+cd linfilesearch
+python3 src/main.py   # system python3 with PyGObject (GTK 3)</code></pre></div><div class="term"><div class="term-head"><span>User install</span><button type="button" class="copy" data-copy="cmd1" hidden>Copy</button></div><pre id="cmd1"><code>./install.sh   # install</code></pre></div><ul class="list"><li>./install.sh --uninstall removes it</li><li>./run.sh creates a venv and installs requirements.txt</li><li>On Wayland the tray icon depends on the desktop&#x27;s AppIndicator support</li></ul><p class="subtle" style="margin:0;font-size:14px">Full and current instructions: <a href="https://github.com/MensuraMedia/linfilesearch#readme">the README on GitHub</a>.</p></div>
+</div></section>
+<section class="wrap section" aria-labelledby="facts-title"><h2 id="facts-title" class="section-title">At a glance</h2><div class="facts"><table><tbody><tr><th scope="row">Verified on</th><td>Linux Mint 22.3 Zena (Cinnamon 6.x, X11), GTK 3.24.41, Python 3.12</td></tr><tr><th scope="row">Scope</th><td>all mounted filesystems, no index</td></tr><tr><th scope="row">Display servers</th><td>full support on X11; app runs on Wayland (tray depends on desktop)</td></tr><tr><th scope="row">Licence</th><td>CC BY-NC 4.0</td></tr></tbody></table></div></section>
+
+<section class="wrap section" aria-labelledby="docs-title"><h2 id="docs-title" class="section-title">Documentation</h2><ul class="links"><li><a href="https://github.com/MensuraMedia/linfilesearch#readme">README</a></li><li><a href="https://github.com/MensuraMedia/linfilesearch/blob/main/LICENSE">Licence</a></li></ul></section>
+
+
+</main>
+<aside class="evolving" aria-label="About these projects"><p class="wrap">MensuraMedia apps are subject to change without notice and will evolve over time. Features, screenshots and install steps shown here describe each project as it was when this page was last built; the project&#x27;s README on GitHub is the authoritative, current reference.</p></aside>
+<footer class="site-footer"><div class="wrap">
+<span>© MensuraMedia · <span lang="ja">メンスラ・メディア</span> · Page built 2026-10-20</span>
+<span class="mono">mensuramedia.github.io/linfilesearch/</span>
+</div></footer>
+</body>
+</html>

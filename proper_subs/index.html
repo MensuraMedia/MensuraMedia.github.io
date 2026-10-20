@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proper Subs — Chrome extension that turns Japanese subtitles into stru</title>
+<meta name="description" content="A free, open-source Chrome extension that transforms Japanese subtitles into literal structured English, preserving the exact Japanese word order with visible particles, so learners can map spoken Japanese directly to meaning.">
+<link rel="canonical" href="https://mensuramedia.github.io/proper_subs/">
+<meta name="theme-color" content="#0E1013">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MensuraMedia">
+<meta property="og:title" content="Proper Subs — Chrome extension that turns Japanese subtitles into stru">
+<meta property="og:description" content="A free, open-source Chrome extension that transforms Japanese subtitles into literal structured English, preserving the exact Japanese word order with visible particles, so learners can map spoken Japanese directly to meaning.">
+<meta property="og:url" content="https://mensuramedia.github.io/proper_subs/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Proper Subs", "description": "A free, open-source Chrome extension that transforms Japanese subtitles into literal structured English, preserving the exact Japanese word order with visible particles, so learners can map spoken Japanese directly to meaning.", "url": "https://mensuramedia.github.io/proper_subs/", "sameAs": "https://github.com/MensuraMedia/proper_subs", "applicationCategory": "EducationalApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Organization", "name": "MensuraMedia", "url": "https://github.com/MensuraMedia"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ruler" aria-hidden="true"></div>
+<header class="wrap site-header">
+<a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="4"></rect><path d="M7 20V12M12 20V8M17 20v-6M22 20V10"></path></svg><span>MensuraMedia</span></a>
+<nav class="nav" aria-label="Main"><a href="/#projects">Projects</a><a href="https://mensuramedia.com/">mensuramedia.com</a><a class="nav-cta" href="https://github.com/MensuraMedia">GitHub</a></nav>
+</header>
+<main id="main">
+
+<div class="wrap"><a class="crumb" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>All MensuraMedia projects</a></div>
+<section class="wrap hero" aria-labelledby="title">
+<ul class="chips"><li><span class="chip">Chrome extension</span></li><li><span class="chip">MIT licence</span></li><li><span class="chip">Offline fallback</span></li><li><span class="chip chip--dev">In development</span></li></ul>
+<p class="eyebrow">Proper Subs</p>
+<h1 id="title" class="display">See Japanese word order while you watch, in English.</h1>
+<p class="lede">A free, open-source Chrome extension that transforms Japanese subtitles into literal structured English, preserving the exact Japanese word order with visible particles, so learners can map spoken Japanese directly to meaning.</p>
+<div class="actions"><a class="btn btn--primary" href="#install">Install</a><a class="btn btn--ghost" href="https://github.com/MensuraMedia/proper_subs">View on GitHub</a></div>
+</section>
+<div class="wrap"><div class="callout" role="note"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"></path><path d="M10.3 3.9L2 18a2 2 0 0 0 1.7 3h16.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><p style="margin:0">The LLM mode needs your own API key from a supported provider; the offline mode works without one.</p></div></div>
+
+<section id="features" class="wrap section" aria-labelledby="features-title">
+<p class="eyebrow">What it does</p><h2 id="features-title" class="section-title">Features</h2>
+<ul class="features"><li><span class="num">01</span><h3>Structured subtitles</h3><p>Live cues become literal English in Japanese order: I wa apple o every day eat. Never naturalized or reordered.</p></li><li><span class="num">02</span><h3>Particles inline</h3><p>Original particles (wa, ga, o, ni, de, kara, to, mo, no) follow the matching English word, colour-coded and configurable.</p></li><li><span class="num">03</span><h3>LLM or offline</h3><p>Bring your own key for Groq, Claude, OpenAI or Gemini; an offline kuromoji.js + JMdict mode works without internet or API cost.</p></li><li><span class="num">04</span><h3>Click-to-define</h3><p>Click any word for an instant Jisho/MassDict dictionary popup.</p></li><li><span class="num">05</span><h3>Anki export</h3><p>One-click capture of the structured text, timestamp and original Japanese.</p></li><li><span class="num">06</span><h3>Display controls</h3><p>Font size, opacity and position sliders, particle highlighting, auto-pause and a timing offset of up to ±500 ms.</p></li></ul>
+</section>
+
+<section id="install" class="band" aria-labelledby="install-title"><div class="wrap band-inner split">
+<div class="stack-col"><h2 id="install-title" class="section-title">Install</h2><p class="muted" style="margin:0">Clone, then load the unpacked directory in Chrome with Developer mode enabled.</p><h3 style="font-size:18px">Requirements</h3><ul class="list"><li>Chrome 110+ (Manifest V3)</li><li>LLM API key for LLM mode (Groq, Claude, OpenAI or Gemini)</li><li>No key needed in offline mode</li></ul></div>
+<div class="stack-col"><div class="term"><div class="term-head"><span>From source</span><button type="button" class="copy" data-copy="cmd0" hidden>Copy</button></div><pre id="cmd0"><code>git clone https://github.com/MensuraMedia/proper_subs.git
+cd proper_subs</code></pre></div><ul class="list"><li>In Chrome: open chrome://extensions, turn on Developer mode, choose Load unpacked and select the cloned proper_subs folder.</li><li>Add an API key in the extension&#x27;s options page to use the LLM mode.</li><li>Site support beyond Aniwave mirrors (Crunchyroll, Netflix, HIDIVE) is planned</li></ul><p class="subtle" style="margin:0;font-size:14px">Full and current instructions: <a href="https://github.com/MensuraMedia/proper_subs#readme">the README on GitHub</a>.</p></div>
+</div></section>
+<section class="wrap section" aria-labelledby="facts-title"><h2 id="facts-title" class="section-title">At a glance</h2><div class="facts"><table><tbody><tr><th scope="row">Browser</th><td>Chrome 110+ (Manifest V3)</td></tr><tr><th scope="row">LLM providers</th><td>Groq, Claude, OpenAI, Gemini (bring your own key)</td></tr><tr><th scope="row">Offline mode</th><td>kuromoji.js tokenizer + JMdict</td></tr><tr><th scope="row">Target latency</th><td>under 400 ms (Groq recommended)</td></tr><tr><th scope="row">Licence</th><td>MIT</td></tr></tbody></table></div></section>
+
+<section class="wrap section" aria-labelledby="docs-title"><h2 id="docs-title" class="section-title">Documentation</h2><ul class="links"><li><a href="https://github.com/MensuraMedia/proper_subs#readme">README</a></li><li><a href="https://github.com/MensuraMedia/proper_subs/blob/main/LICENSE">Licence</a></li></ul></section>
+
+
+</main>
+<aside class="evolving" aria-label="About these projects"><p class="wrap">MensuraMedia apps are subject to change without notice and will evolve over time. Features, screenshots and install steps shown here describe each project as it was when this page was last built; the project&#x27;s README on GitHub is the authoritative, current reference.</p></aside>
+<footer class="site-footer"><div class="wrap">
+<span>© MensuraMedia · <span lang="ja">メンスラ・メディア</span> · Page built 2026-10-20</span>
+<span class="mono">mensuramedia.github.io/proper_subs/</span>
+</div></footer>
+</body>
+</html>

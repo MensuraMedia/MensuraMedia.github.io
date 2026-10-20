@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LinFileDedup — Find and safely remove duplicate and near-duplicate fil</title>
+<meta name="description" content="LinFileDedup finds exact duplicates, visually similar images and near-identical documents, flags probable backups, and lets you reclaim space safely. Nothing is changed until you review the groups and confirm, and removals go to Trash by default.">
+<link rel="canonical" href="https://mensuramedia.github.io/linfilededuplication/">
+<meta name="theme-color" content="#0E1013">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MensuraMedia">
+<meta property="og:title" content="LinFileDedup — Find and safely remove duplicate and near-duplicate fil">
+<meta property="og:description" content="LinFileDedup finds exact duplicates, visually similar images and near-identical documents, flags probable backups, and lets you reclaim space safely. Nothing is changed until you review the groups and confirm, and removals go to Trash by default.">
+<meta property="og:url" content="https://mensuramedia.github.io/linfilededuplication/">
+<meta property="og:image" content="https://mensuramedia.github.io/assets/img/linfilededuplication/results.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "LinFileDedup", "description": "LinFileDedup finds exact duplicates, visually similar images and near-identical documents, flags probable backups, and lets you reclaim space safely. Nothing is changed until you review the groups and confirm, and removals go to Trash by default.", "url": "https://mensuramedia.github.io/linfilededuplication/", "sameAs": "https://github.com/MensuraMedia/linfilededuplication", "operatingSystem": "Linux", "applicationCategory": "UtilitiesApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Organization", "name": "MensuraMedia", "url": "https://github.com/MensuraMedia"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ruler" aria-hidden="true"></div>
+<header class="wrap site-header">
+<a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="4"></rect><path d="M7 20V12M12 20V8M17 20v-6M22 20V10"></path></svg><span>MensuraMedia</span></a>
+<nav class="nav" aria-label="Main"><a href="/#projects">Projects</a><a href="https://mensuramedia.com/">mensuramedia.com</a><a class="nav-cta" href="https://github.com/MensuraMedia">GitHub</a></nav>
+</header>
+<main id="main">
+
+<div class="wrap"><a class="crumb" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>All MensuraMedia projects</a></div>
+<section class="wrap hero" aria-labelledby="title">
+<ul class="chips"><li><span class="chip">GTK 4 + libadwaita</span></li><li><span class="chip">Debian 12/13 · Mint</span></li><li><span class="chip">No network · local</span></li><li><span class="chip chip--stable">v0.1.0</span></li></ul>
+<p class="eyebrow">LinFileDedup</p>
+<h1 id="title" class="display">Reclaim disk space by finding duplicates safely.</h1>
+<p class="lede">LinFileDedup finds exact duplicates, visually similar images and near-identical documents, flags probable backups, and lets you reclaim space safely. Nothing is changed until you review the groups and confirm, and removals go to Trash by default.</p>
+<div class="actions"><a class="btn btn--primary" href="#install">Install</a><a class="btn btn--ghost" href="https://github.com/MensuraMedia/linfilededuplication">View on GitHub</a></div>
+</section>
+
+<div class="wrap section"><figure class="shot"><img src="/assets/img/linfilededuplication/results.png" alt="LinFileDedup — Results" width="1180" height="780" fetchpriority="high"><figcaption>Results lead with how much space you can free.</figcaption></figure></div>
+<section id="features" class="wrap section" aria-labelledby="features-title">
+<p class="eyebrow">What it does</p><h2 id="features-title" class="section-title">Features</h2>
+<ul class="features"><li><span class="num">01</span><h3>Exact + near matches</h3><p>A layered pipeline (size, partial hash, SHA-256, byte-for-byte) finds exact duplicates; perceptual hashing groups similar images.</p></li><li><span class="num">02</span><h3>SpotCheck</h3><p>Compare a group side by side: image previews, a synced page-by-page PDF viewer, an inline video player or document snippets.</p></li><li><span class="num">03</span><h3>Multi-source scans</h3><p>Scan several folders and drives as one pool; the primary source&#x27;s copy is kept and cross-drive copies route to Trash.</p></li><li><span class="num">04</span><h3>Fast repeat scans</h3><p>A persistent hash cache reuses fingerprints of unchanged files; every match is still byte-verified so the cache never weakens safety.</p></li><li><span class="num">05</span><h3>Backup awareness</h3><p>Files that look like backups (~, .bak, copy, dated sets) are flagged with colourblind-safe markers and never removed automatically.</p></li><li><span class="num">06</span><h3>Runs locally</h3><p>No accounts, no network, no telemetry; scans are read-only and confirmation is required before anything is removed.</p></li></ul>
+</section>
+<section class="wrap section" aria-labelledby="tour"><h2 id="tour" class="section-title">A closer look</h2><div class="gallery"><figure class="shot"><img src="/assets/img/linfilededuplication/spotcheck.png" alt="SpotCheck" width="1100" height="720" loading="lazy" decoding="async"><figcaption>Side-by-side comparison of a duplicate group.</figcaption></figure><figure class="shot"><img src="/assets/img/linfilededuplication/scan-multisource.png" alt="Per-source progress" width="1200" height="540" loading="lazy" decoding="async"><figcaption>A percentage ring tracks each source independently.</figcaption></figure><figure class="shot"><img src="/assets/img/linfilededuplication/knowledge.png" alt="Knowledge" width="1140" height="780" loading="lazy" decoding="async"><figcaption>A searchable, offline glossary and FAQ.</figcaption></figure></div></section>
+<section id="install" class="band" aria-labelledby="install-title"><div class="wrap band-inner split">
+<div class="stack-col"><h2 id="install-title" class="section-title">Install</h2><p class="muted" style="margin:0">Build and install the .deb, or use the installer script for a user or system install.</p><h3 style="font-size:18px">Requirements</h3><ul class="list"><li>Debian 12/13 or Linux Mint</li><li>GTK 4 + libadwaita (python3-gi)</li><li>python3-pil</li><li>python3-imagehash, python3-xxhash recommended</li></ul></div>
+<div class="stack-col"><div class="term"><div class="term-head"><span>From the .deb</span><button type="button" class="copy" data-copy="cmd0" hidden>Copy</button></div><pre id="cmd0"><code>git clone https://github.com/MensuraMedia/linfilededuplication.git
+cd linfilededuplication
+scripts/build-deb.sh
+sudo apt install ./dist/linfilededuplication_0.1.0_all.deb</code></pre></div><div class="term"><div class="term-head"><span>User install</span><button type="button" class="copy" data-copy="cmd1" hidden>Copy</button></div><pre id="cmd1"><code>scripts/install.sh   # ~/.local (user)</code></pre></div><div class="term"><div class="term-head"><span>System install</span><button type="button" class="copy" data-copy="cmd2" hidden>Copy</button></div><pre id="cmd2"><code>scripts/install.sh --system   # /usr/local (sudo)</code></pre></div><ul class="list"><li>Remove with scripts/uninstall.sh</li><li>Depends on python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1; optional extras degrade gracefully when absent</li></ul><p class="subtle" style="margin:0;font-size:14px">Full and current instructions: <a href="https://github.com/MensuraMedia/linfilededuplication#readme">the README on GitHub</a>.</p></div>
+</div></section>
+<section class="wrap section" aria-labelledby="facts-title"><h2 id="facts-title" class="section-title">At a glance</h2><div class="facts"><table><tbody><tr><th scope="row">Platform</th><td>Debian 12/13, Linux Mint</td></tr><tr><th scope="row">Stack</th><td>GTK 4 + libadwaita</td></tr><tr><th scope="row">Privacy</th><td>runs locally; no network or telemetry</td></tr><tr><th scope="row">Removal</th><td>Trash by default; confirmation required</td></tr><tr><th scope="row">Licence</th><td>CC BY-NC 4.0</td></tr></tbody></table></div></section>
+
+<section class="wrap section" aria-labelledby="docs-title"><h2 id="docs-title" class="section-title">Documentation</h2><ul class="links"><li><a href="https://github.com/MensuraMedia/linfilededuplication#readme">README</a></li><li><a href="https://github.com/MensuraMedia/linfilededuplication/blob/main/docs/CONCEPT.md">Technical design</a></li><li><a href="https://github.com/MensuraMedia/linfilededuplication/blob/main/docs/CONCEPT-MULTISOURCE.md">Multisource design</a></li><li><a href="https://github.com/MensuraMedia/linfilededuplication/blob/main/docs/CONCEPT-SCAN-RINGS.md">Scan rings design</a></li><li><a href="https://github.com/MensuraMedia/linfilededuplication/blob/main/docs/SPOTCHECK.md">SpotCheck notes</a></li></ul></section>
+
+
+</main>
+<aside class="evolving" aria-label="About these projects"><p class="wrap">MensuraMedia apps are subject to change without notice and will evolve over time. Features, screenshots and install steps shown here describe each project as it was when this page was last built; the project&#x27;s README on GitHub is the authoritative, current reference.</p></aside>
+<footer class="site-footer"><div class="wrap">
+<span>© MensuraMedia · <span lang="ja">メンスラ・メディア</span> · Page built 2026-10-20</span>
+<span class="mono">mensuramedia.github.io/linfilededuplication/</span>
+</div></footer>
+</body>
+</html>

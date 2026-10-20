@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linux Media Downloader — Desktop app that downloads YouTube videos and</title>
+<meta name="description" content="Linux Media Downloader pairs a small Flask backend with a PyWebView native window and delegates all downloading to yt-dlp. It runs as a native desktop window or an ordinary web browser, and binds only to localhost.">
+<link rel="canonical" href="https://mensuramedia.github.io/linmediadownloader/">
+<meta name="theme-color" content="#0E1013">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MensuraMedia">
+<meta property="og:title" content="Linux Media Downloader — Desktop app that downloads YouTube videos and">
+<meta property="og:description" content="Linux Media Downloader pairs a small Flask backend with a PyWebView native window and delegates all downloading to yt-dlp. It runs as a native desktop window or an ordinary web browser, and binds only to localhost.">
+<meta property="og:url" content="https://mensuramedia.github.io/linmediadownloader/">
+<meta property="og:image" content="https://mensuramedia.github.io/assets/img/linmediadownloader/mbs-main-ui.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Linux Media Downloader", "description": "Linux Media Downloader pairs a small Flask backend with a PyWebView native window and delegates all downloading to yt-dlp. It runs as a native desktop window or an ordinary web browser, and binds only to localhost.", "url": "https://mensuramedia.github.io/linmediadownloader/", "sameAs": "https://github.com/MensuraMedia/linmediadownloader", "operatingSystem": "Linux", "applicationCategory": "UtilitiesApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Organization", "name": "MensuraMedia", "url": "https://github.com/MensuraMedia"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ruler" aria-hidden="true"></div>
+<header class="wrap site-header">
+<a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="4"></rect><path d="M7 20V12M12 20V8M17 20v-6M22 20V10"></path></svg><span>MensuraMedia</span></a>
+<nav class="nav" aria-label="Main"><a href="/#projects">Projects</a><a href="https://mensuramedia.com/">mensuramedia.com</a><a class="nav-cta" href="https://github.com/MensuraMedia">GitHub</a></nav>
+</header>
+<main id="main">
+
+<div class="wrap"><a class="crumb" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>All MensuraMedia projects</a></div>
+<section class="wrap hero" aria-labelledby="title">
+<ul class="chips"><li><span class="chip">yt-dlp powered</span></li><li><span class="chip">MP3 / MP4 output</span></li><li><span class="chip">Linux + Windows</span></li><li><span class="chip chip--dev">In development</span></li></ul>
+<p class="eyebrow">Linux Media Downloader</p>
+<h1 id="title" class="display">Download YouTube videos and playlists as MP3 or MP4.</h1>
+<p class="lede">Linux Media Downloader pairs a small Flask backend with a PyWebView native window and delegates all downloading to yt-dlp. It runs as a native desktop window or an ordinary web browser, and binds only to localhost.</p>
+<div class="actions"><a class="btn btn--primary" href="#install">Install</a><a class="btn btn--ghost" href="https://github.com/MensuraMedia/linmediadownloader">View on GitHub</a></div>
+</section>
+<div class="wrap"><div class="callout" role="note"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"></path><path d="M10.3 3.9L2 18a2 2 0 0 0 1.7 3h16.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><p style="margin:0">Free for personal, educational or non-commercial use only; commercial use is prohibited without written permission.</p></div></div>
+<div class="wrap section"><figure class="shot"><img src="/assets/img/linmediadownloader/mbs-main-ui.png" alt="Main UI" width="991" height="890" fetchpriority="high"><figcaption>The main window of Linux Media Downloader.</figcaption></figure></div>
+<section id="features" class="wrap section" aria-labelledby="features-title">
+<p class="eyebrow">What it does</p><h2 id="features-title" class="section-title">Features</h2>
+<ul class="features"><li><span class="num">01</span><h3>Video &amp; playlist downloads</h3><p>Download single YouTube videos or entire playlists as audio (MP3, 192 kbps) or full video (MP4), with a clean cancel at any time.</p></li><li><span class="num">02</span><h3>Real-time progress</h3><p>An overall progress circle plus a live bar under the current track; the download table lists each track&#x27;s length.</p></li><li><span class="num">03</span><h3>Ignore duplicates</h3><p>Skips tracks you already downloaded, matched by video id and by original title with at least 80% relevancy, using a hidden manifest.</p></li><li><span class="num">04</span><h3>Playlists manager</h3><p>Rename playlists and clean file names in bulk: remove filler words, change case, add number prefixes - every operation undoable.</p></li><li><span class="num">05</span><h3>Built-in player</h3><p>A Player tab plays downloaded audio and video over a searchable list; delete a file or add it to a new folder as you listen.</p></li><li><span class="num">06</span><h3>Two ways to run</h3><p>Use the native desktop window (PyWebView) or an ordinary web browser; the Flask server binds only to 127.0.0.1.</p></li></ul>
+</section>
+
+<section id="install" class="band" aria-labelledby="install-title"><div class="wrap band-inner split">
+<div class="stack-col"><h2 id="install-title" class="section-title">Install</h2><p class="muted" style="margin:0">One command installs Python, ffmpeg and the GUI backend, and adds the app to the program menu.</p><h3 style="font-size:18px">Requirements</h3><ul class="list"><li>Python 3.8+</li><li>yt-dlp, Flask, pywebview</li><li>ffmpeg on PATH (audio extraction)</li><li>Linux or Windows</li></ul></div>
+<div class="stack-col"><div class="term"><div class="term-head"><span>One command (Debian/Ubuntu/Mint)</span><button type="button" class="copy" data-copy="cmd0" hidden>Copy</button></div><pre id="cmd0"><code>curl -fsSL https://raw.githubusercontent.com/MensuraMedia/linux-media-downloader/main/install.sh | bash</code></pre></div><ul class="list"><li>Re-run the one-command install to update.</li><li>Uninstall with: bash ~/.local/share/linux-media-downloader/install.sh --uninstall</li><li>Other platforms and manual setup are covered in INSTALL.md</li></ul><p class="subtle" style="margin:0;font-size:14px">Full and current instructions: <a href="https://github.com/MensuraMedia/linmediadownloader#readme">the README on GitHub</a>.</p></div>
+</div></section>
+<section class="wrap section" aria-labelledby="facts-title"><h2 id="facts-title" class="section-title">At a glance</h2><div class="facts"><table><tbody><tr><th scope="row">Engine</th><td>yt-dlp</td></tr><tr><th scope="row">Audio</th><td>MP3 at 192 kbps</td></tr><tr><th scope="row">History</th><td>last 100 downloads kept</td></tr><tr><th scope="row">Mode</th><td>native window or browser</td></tr><tr><th scope="row">Licence</th><td>non-commercial, see LICENSE</td></tr></tbody></table></div></section>
+
+<section class="wrap section" aria-labelledby="docs-title"><h2 id="docs-title" class="section-title">Documentation</h2><ul class="links"><li><a href="https://github.com/MensuraMedia/linmediadownloader#readme">README</a></li><li><a href="https://github.com/MensuraMedia/linmediadownloader/blob/main/INSTALL.md">Install guide</a></li><li><a href="https://github.com/MensuraMedia/linmediadownloader/blob/main/DOCUMENTATION.md">Full reference</a></li><li><a href="https://github.com/MensuraMedia/linmediadownloader/blob/main/ROADMAP.md">Roadmap</a></li><li><a href="https://github.com/MensuraMedia/linmediadownloader/blob/main/docs/packaging.md">Packaging guide</a></li></ul></section>
+
+
+</main>
+<aside class="evolving" aria-label="About these projects"><p class="wrap">MensuraMedia apps are subject to change without notice and will evolve over time. Features, screenshots and install steps shown here describe each project as it was when this page was last built; the project&#x27;s README on GitHub is the authoritative, current reference.</p></aside>
+<footer class="site-footer"><div class="wrap">
+<span>© MensuraMedia · <span lang="ja">メンスラ・メディア</span> · Page built 2026-10-20</span>
+<span class="mono">mensuramedia.github.io/linmediadownloader/</span>
+</div></footer>
+</body>
+</html>

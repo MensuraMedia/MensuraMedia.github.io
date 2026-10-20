@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LinProcessManager — GTK 3 process manager and system monitor: live tab</title>
+<meta name="description" content="A desktop process manager and system monitor for Linux, everything in one window, fully offline and with no root required. Live process table and tree, signals and renice, resource history, PSI and a searchable systemd-journal log viewer.">
+<link rel="canonical" href="https://mensuramedia.github.io/linprocessmanager/">
+<meta name="theme-color" content="#0E1013">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MensuraMedia">
+<meta property="og:title" content="LinProcessManager — GTK 3 process manager and system monitor: live tab">
+<meta property="og:description" content="A desktop process manager and system monitor for Linux, everything in one window, fully offline and with no root required. Live process table and tree, signals and renice, resource history, PSI and a searchable systemd-journal log viewer.">
+<meta property="og:url" content="https://mensuramedia.github.io/linprocessmanager/">
+<meta property="og:image" content="https://mensuramedia.github.io/assets/img/linprocessmanager/processes.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/space-grotesk-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script src="/assets/js/site.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "LinProcessManager", "description": "A desktop process manager and system monitor for Linux, everything in one window, fully offline and with no root required. Live process table and tree, signals and renice, resource history, PSI and a searchable systemd-journal log viewer.", "url": "https://mensuramedia.github.io/linprocessmanager/", "sameAs": "https://github.com/MensuraMedia/linprocessmanager", "operatingSystem": "Linux", "applicationCategory": "UtilitiesApplication", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "author": {"@type": "Organization", "name": "MensuraMedia", "url": "https://github.com/MensuraMedia"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="ruler" aria-hidden="true"></div>
+<header class="wrap site-header">
+<a class="brand" href="/"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="24" height="24" rx="4"></rect><path d="M7 20V12M12 20V8M17 20v-6M22 20V10"></path></svg><span>MensuraMedia</span></a>
+<nav class="nav" aria-label="Main"><a href="/#projects">Projects</a><a href="https://mensuramedia.com/">mensuramedia.com</a><a class="nav-cta" href="https://github.com/MensuraMedia">GitHub</a></nav>
+</header>
+<main id="main">
+
+<div class="wrap"><a class="crumb" href="/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"></path></svg>All MensuraMedia projects</a></div>
+<section class="wrap hero" aria-labelledby="title">
+<ul class="chips"><li><span class="chip">25 columns</span></li><li><span class="chip">Fully offline</span></li><li><span class="chip">No root needed</span></li><li><span class="chip chip--dev">Phase 2/8</span></li></ul>
+<p class="eyebrow">LinProcessManager</p>
+<h1 id="title" class="display">Watch, understand and control Linux processes offline.</h1>
+<p class="lede">A desktop process manager and system monitor for Linux, everything in one window, fully offline and with no root required. Live process table and tree, signals and renice, resource history, PSI and a searchable systemd-journal log viewer.</p>
+<div class="actions"><a class="btn btn--primary" href="#install">Install</a><a class="btn btn--ghost" href="https://github.com/MensuraMedia/linprocessmanager">View on GitHub</a></div>
+</section>
+<div class="wrap"><div class="callout" role="note"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"></path><path d="M10.3 3.9L2 18a2 2 0 0 0 1.7 3h16.6a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"></path></svg><p style="margin:0">In development: Phase 2 of 8; the data core and sampler are shipped, the live table is landing, logs analytics are designed.</p></div></div>
+<div class="wrap section"><figure class="shot"><img src="/assets/img/linprocessmanager/processes.png" alt="Processes" width="1280" height="820" fetchpriority="high"><figcaption>The live table, metric band and preview sidebar.</figcaption></figure></div>
+<section id="features" class="wrap section" aria-labelledby="features-title">
+<p class="eyebrow">What it does</p><h2 id="features-title" class="section-title">Features</h2>
+<ul class="features"><li><span class="num">01</span><h3>Live process table</h3><p>Every process updated in place; filter by name plain or regex, scope to your own processes, hide kernel threads.</p></li><li><span class="num">02</span><h3>25 sortable columns</h3><p>CPU, memory, swap, per-process disk I/O and network rates, threads, nice, OOM score, cgroup unit and more.</p></li><li><span class="num">03</span><h3>Signals &amp; priorities</h3><p>Stop, Continue, End, Kill or any signal from a picker; renice presets, CPU affinity; outcomes are verified and reported.</p></li><li><span class="num">04</span><h3>Graphs &amp; disks</h3><p>Six system dashboards with 5-minute history, per-filesystem capacity bars and per-device read/write rates.</p></li><li><span class="num">05</span><h3>Journal logs</h3><p>The systemd journal with presets, unit and priority filters and severity colouring; saved views are in development.</p></li><li><span class="num">06</span><h3>Fully offline</h3><p>Reads /proc, /sys and local journalctl only; makes no network connections, enforced by test gates.</p></li></ul>
+</section>
+<section class="wrap section" aria-labelledby="tour"><h2 id="tour" class="section-title">A closer look</h2><div class="gallery"><figure class="shot"><img src="/assets/img/linprocessmanager/graphs.png" alt="Graphs" width="1280" height="820" loading="lazy" decoding="async"><figcaption>The Basics summary cards and the chart hub.</figcaption></figure><figure class="shot"><img src="/assets/img/linprocessmanager/network.png" alt="Network" width="1280" height="820" loading="lazy" decoding="async"><figcaption>Per-app traffic with Tx and Rx bars.</figcaption></figure><figure class="shot"><img src="/assets/img/linprocessmanager/logs.png" alt="Logs" width="1280" height="820" loading="lazy" decoding="async"><figcaption>The systemd journal viewer.</figcaption></figure></div></section>
+<section id="install" class="band" aria-labelledby="install-title"><div class="wrap band-inner split">
+<div class="stack-col"><h2 id="install-title" class="section-title">Install</h2><p class="muted" style="margin:0">Run from the checkout with the system Python; four system packages, no pip and no venv.</p><h3 style="font-size:18px">Requirements</h3><ul class="list"><li>Python 3.10+</li><li>python3-gi, gir1.2-gtk-3.0</li><li>python3-cairo, python3-pil</li><li>Debian/Ubuntu family (Mint first)</li><li>systemd journal (journalctl)</li></ul></div>
+<div class="stack-col"><div class="term"><div class="term-head"><span>Quick start</span><button type="button" class="copy" data-copy="cmd0" hidden>Copy</button></div><pre id="cmd0"><code>git clone https://github.com/MensuraMedia/linprocessmanager.git
+cd linprocessmanager
+./run.sh   # == python3 src/main.py  (system python, no pip/venv)</code></pre></div><ul class="list"><li>System packages: python3-gi gir1.2-gtk-3.0 python3-cairo python3-pil</li><li>Python floor 3.10; verified on Mint 22 / Ubuntu 24.04</li><li>The user manual is docs/USER_MANUAL.md</li></ul><p class="subtle" style="margin:0;font-size:14px">Full and current instructions: <a href="https://github.com/MensuraMedia/linprocessmanager#readme">the README on GitHub</a>.</p></div>
+</div></section>
+<section class="wrap section" aria-labelledby="facts-title"><h2 id="facts-title" class="section-title">At a glance</h2><div class="facts"><table><tbody><tr><th scope="row">Status</th><td>in development, Phase 2 of 8</td></tr><tr><th scope="row">Verified on</th><td>Linux Mint 22 / Ubuntu 24.04, Python 3.12, GTK 3.24.41</td></tr><tr><th scope="row">Python</th><td>3.10+</td></tr><tr><th scope="row">Privacy</th><td>fully offline; no root, no elevation paths</td></tr><tr><th scope="row">Licence</th><td>CC BY-NC 4.0</td></tr></tbody></table></div></section>
+
+<section class="wrap section" aria-labelledby="docs-title"><h2 id="docs-title" class="section-title">Documentation</h2><ul class="links"><li><a href="https://github.com/MensuraMedia/linprocessmanager#readme">README</a></li><li><a href="https://github.com/MensuraMedia/linprocessmanager/blob/main/docs/USER_MANUAL.md">User manual</a></li><li><a href="https://github.com/MensuraMedia/linprocessmanager/blob/main/docs/debian-compatibility.md">Compatibility matrix</a></li><li><a href="https://github.com/MensuraMedia/linprocessmanager/blob/main/docs/DEVELOPMENT.md">Development guide</a></li><li><a href="https://github.com/MensuraMedia/linprocessmanager/blob/main/docs/build-principles.md">Build principles</a></li></ul></section>
+
+
+</main>
+<aside class="evolving" aria-label="About these projects"><p class="wrap">MensuraMedia apps are subject to change without notice and will evolve over time. Features, screenshots and install steps shown here describe each project as it was when this page was last built; the project&#x27;s README on GitHub is the authoritative, current reference.</p></aside>
+<footer class="site-footer"><div class="wrap">
+<span>© MensuraMedia · <span lang="ja">メンスラ・メディア</span> · Page built 2026-10-20</span>
+<span class="mono">mensuramedia.github.io/linprocessmanager/</span>
+</div></footer>
+</body>
+</html>
